@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#parent{
+	width: 100%;
+	height: 100vh;
+	background-image: url(grassroad.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+
+#parentlight{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#box{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 5px;
+}
+#car{
+	position: absolute;
+	top: 100px;
+	
+}
+
+
+
